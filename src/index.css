@@ -1,3 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Avenir:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+  font-family: Avenir;
+  src: url("./assets/fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Avenir;
+  font-weight: 300;
+  src: url("./assets/fonts/avenir_ff/AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SF Pro Text;
+  src: url("./assets/fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: SF Compact Rounded;
+  src: url("./assets/fonts/sf-pro-display/SF-Compact-Rounded-Regular.ttf") format("opentype");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +31,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #D0D0D0;
+  /* background-image: url('./assets/imgs/bg.jpg'); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  height: 100vh;
+  max-width: 550px;
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'SF Pro Text';
+}
+
+input:-ms-input-placeholder {
+  font-family: 'SF Pro Text';
+}
+
+input:-moz-placeholder {
+  font-family: 'SF Pro Text';
+}
+
+input::-moz-placeholder {
+  font-family: 'SF Pro Text';
 }
